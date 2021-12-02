@@ -1,6 +1,6 @@
 pipeline {
   triggers {
-    cron ('H/5 * * * *')
+    cron ('H/3 * * * *')
   }
   options {
     buildDiscarder (logRotator (numToKeepStr: '10', artifactNumToKeepStr: '10'))
